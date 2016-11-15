@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SR12-SWISSRE-TEST
+  host: SR12-SWISSRE-TEST
+  disk_quota: 1024M
+  services:
+  - SR12-SWISSRE-TEST-cloudantNoSQLDB
+  - AlchemyAPI-5q
